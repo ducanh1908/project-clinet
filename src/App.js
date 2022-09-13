@@ -1,8 +1,8 @@
-import "./App.css";
-import LoginPage from "./pages/LoginPage/LoginPage";
-import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import LoginPage from './pages/LoginPage/LoginPage';
+import RegisterPage from './pages/RegisterPage/RegisterPage';
 function App() {
   return (
     <div className="App">
